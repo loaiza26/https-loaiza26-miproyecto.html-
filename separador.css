@@ -1,0 +1,45 @@
+body {
+    border: 2px solid blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.subtitulo {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    border: 4px solid blue;
+}
+
+table {
+    width: 100%;
+}
+
+/* Estilos de tabla originales */
+table,
+th,
+td {
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+
+tr,
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+}
+
+.foto-perfil {
+    float: right;
+    width: 130px;
+    margin-right: 100px;
+}
