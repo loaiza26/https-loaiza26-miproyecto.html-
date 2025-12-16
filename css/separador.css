@@ -1,0 +1,47 @@
+/* Estilos generales */
+body {
+    border: 2px solid blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    border: 4px solid blue;
+}
+
+/* Clases específicas extraídas de estilos en línea */
+.subtitle {
+    color: blue;
+    text-align: center;
+}
+
+.profile-photo {
+    float: right;
+    width: 130px;
+    margin-right: 100px;
+}
+
+/* Estilos de tabla moveidos del bloque <style> */
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+
+tr,
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+}
