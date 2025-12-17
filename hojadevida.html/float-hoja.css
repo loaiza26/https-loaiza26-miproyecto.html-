@@ -1,0 +1,43 @@
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    margin:20px;
+    border: 2px solid blue;
+}
+.columna{
+    float: left;
+    padding: 10px;
+    border: 1px;
+    
+}
+
+.fila::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.ancho-33{
+   width: 33%; 
+   border: 1px;
+}
+.ancho-50{
+    width: 50%;
+}
+.ancho-100{
+    width: 100%;
+}
+h1,
+h2,
+.subtitulo {
+    text-align: center;
+}
+
+.subtitulo {
+    color: blue;
+}
+
+.foto-perfil {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
