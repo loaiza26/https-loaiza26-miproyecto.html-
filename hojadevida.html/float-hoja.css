@@ -1,41 +1,30 @@
-/* Configuracion basica para el layout */
-* {
-    box-sizing: border-box;
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    margin:20px;
+    border: 2px solid blue;
+}
+.columna{
+    float: left;
+    padding: 10px;
+    border: 1px;
+    
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
-
-/* Sistema de grilla con Float */
 .fila::after {
     content: "";
     display: table;
     clear: both;
 }
-
-.columna {
-    float: left;
-    padding: 10px;
-    border: 1px solid #ccc;
-    /* Añadimos borde para visualizacion como en la tabla anterior */
+.ancho-33{
+   width: 33%; 
+   border: 1px;
 }
-
-/* Anchos de columna */
-.ancho-33 {
-    width: 33.333%;
-}
-
-.ancho-50 {
+.ancho-50{
     width: 50%;
 }
-
-.ancho-100 {
+.ancho-100{
     width: 100%;
 }
-
-/* Estilos especificos para la hoja de vida */
 h1,
 h2,
 .subtitulo {
@@ -51,9 +40,4 @@ h2,
     height: auto;
     display: block;
     margin: 0 auto;
-}
-
-/* Estilos para inputs y labels para que se vean mejor en el float */
-input[type="radio"] {
-    margin: 0 5px;
 }
